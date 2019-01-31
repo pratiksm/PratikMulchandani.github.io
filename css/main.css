@@ -1,8 +1,8 @@
 /**
  * =================================================================== 
  *
- *  Kards v1.0 Main Stylesheet
- *  url: styleshout.com
+ *  Pratik
+ *  
  *  03-01-2016
  *  ------------------------------------------------------------------
  *  TOC:
@@ -1094,27 +1094,22 @@ header .row {
 	min-height: 66px;
 }
 header .top-bar {
-	color: #cc005f;
 	display: block;
-	min-width: 110px;
+	/*background: #000000;*/
+	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
 	left: 90px;
 	top: 0;
-
-	
 }
 header .logo {
-	
 	float: left;
 	margin-left: 20px;
 	margin-right: 50px;
 	margin-top: 25px;
 	position: relative;
-	
 }
 header .logo a {
-	
 	display: block;
 	margin: 0;
 	padding: 0;
@@ -1124,7 +1119,8 @@ header .logo a {
 	color: transparent;
 	width: 92px;
 	height: 15px;
-
+	/*background: url("../images/logo.png") no-repeat center;*/
+	background-size: 92px 15px;
 }
 
 /**
@@ -1132,11 +1128,10 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 .menu-toggle {
-	
 	float: left;
 	width: 40px;
 	height: 40px;
-	margin-left: -40px;
+	margin-left: 20px;
 	margin-top: 13px;
 	display: block;
 	position: relative;
@@ -1235,7 +1230,7 @@ header .logo a {
 /* dropdown nav */
 .main-navigation {
 	background: #000000;
-	padding: 24px 30px 4px;
+	padding: 24px 30px 42px;
 	margin: 0;
 	width: 100%;
 	height: auto;
@@ -1272,22 +1267,22 @@ header .logo a {
  */
 @media only screen and (max-width:1024px) {
 	header .top-bar {
-		left: 40px;
+		left: 60px;
 	}
 }
 @media only screen and (max-width:768px) {
 	header .top-bar {
-		left: 30px;
+		left: 50px;
 	}
 }
 @media only screen and (max-width:600px) {
 	header .top-bar {
-		left: 25px;
+		left: 35px;
 	}
 }
 @media only screen and (max-width:400px) {
 	header .top-bar {
-		left: 15px;
+		left: 25px;
 	}
 }
 
